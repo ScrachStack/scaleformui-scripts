@@ -32,6 +32,7 @@ ShopMenu:MaxItemsOnScreen(7)
     ShopMenu:AnimationType(MenuAnimationType.CUBIC_INOUT)
 	ShopMenu:ScrollingType(MenuScrollingType.CLASSIC)
 	ShopMenu:CounterColor(SColor.HUD_Blue)
+	if not ShopMenu:Visible() then return end
 	for i = 1, #configs.Stores do
 		local store = configs.Stores[i]
 		for j = 1, #store.items do
