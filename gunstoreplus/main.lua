@@ -7,8 +7,7 @@ config = {
     },
 	menuPosition = "center",
 	menuWidth = 80,
-    Style = 'Default',
-
+	
     weapons = {
         Handguns = {
             pistols_1 = {"Pistol", "weapon_pistol", 699, "Most reliable and dependable sidearm for law-enforcement, military and personal defense.", 500},
